@@ -1,0 +1,13 @@
+name: disable
+
+on:
+ push:
+   branches: [ main ]
+
+jobs:
+  disable:
+     runs-on: ubantu-latest
+
+     steps:
+       - name: fahad
+         run: echo "disable workflow"
